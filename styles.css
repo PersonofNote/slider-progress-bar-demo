@@ -1,0 +1,15 @@
+
+.slider-container {
+    height: 400px;
+    margin: auto;
+}
+
+.slick-list {
+    height: 100%;
+}
+
+.slick-slide {
+    text-align: center;
+    border: 1px solid gray;
+    height: 100%;
+}
