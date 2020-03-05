@@ -1,15 +1,46 @@
 
-.slider-container {
-    height: 400px;
+.slider-wrapper {
+    position: relative;
+    width: 80%;
     margin: auto;
 }
 
-.slick-list {
-    height: 100%;
+.slider-container {
+    height: 400px;
 }
 
 .slick-slide {
     text-align: center;
     border: 1px solid gray;
+    height: 400px;
+}
+
+.progress-container {
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    height: 8px;
+    text-align: center;
+}
+
+.progress-bar {
+    width: 200px;
+    height: 8px;
+    border-radius: 6px;
+    background-color: ghostwhite;
+    border: 1px solid lightgray;
+}
+
+.progress {
+    position: absolute;
     height: 100%;
+    top: 0;
+    width: 50%;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 8px;
+}
+
+.progress-text {
+
 }
