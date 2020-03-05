@@ -21,5 +21,5 @@ $('.progress-container').append('<span class="progress-text"> </span>')
 $('.slider-container').on('beforeChange', function(event, slick, currentSlide, nextSlide){
     var i = (currentSlide ? currentSlide : 0) + 1;
     $('.progress-text').text(`${currentSlide} / ${slick.slideCount}`);
-    
+    $('.progress').width(`${(currentSlide/slick.slideCount) * 100}%`);    
 });

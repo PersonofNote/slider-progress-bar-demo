@@ -28,16 +28,13 @@
     height: 8px;
     border-radius: 6px;
     background-color: ghostwhite;
-    border: 1px solid lightgray;
 }
 
 .progress {
     position: absolute;
     height: 100%;
     top: 0;
-    width: 50%;
     background-color: orange;
-    border: 1px solid orange;
     border-radius: 8px;
 }
 
